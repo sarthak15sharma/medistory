@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "solc": "^0.8.19",
+    "truffle": "^5.1.65",
+    "web3": "^1.9.0",
+    "web3-eth-contract": "^1.9.0"
+  }
+}
