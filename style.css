@@ -1,0 +1,74 @@
+body {
+    background-color: #181818;
+    color: white;
+}
+
+#header {
+    background-color: #181818;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+}
+
+.navb {
+    margin-top: 5px;
+    background-color: inherit;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: #181818;
+    border-color: #181818;
+    padding: 10px 65px;
+    transition: 0.4s;
+    border-radius: 0;
+}
+
+nav>.btn :first-child {
+    padding: 0px;
+}
+
+.btn:hover {
+    background-color: inherit;
+    border-color: #181818;
+    border-bottom-color: #27cfdc;
+}
+
+#main_logo {
+    width: 400px;
+    margin: none;
+    transition: 0.2s;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-bottom: 300px;
+}
+
+.white {
+    color: white;
+}
+
+.col {
+    background: linear-gradient(90deg, rgba(137, 78, 198, 1) 0%, rgba(59, 177, 225, 1) 100%, rgba(59, 177, 225, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#accountID, #accountpass{
+    border: 0px solid white;
+    border-radius: 45px;
+    height: 70px;
+    width: 40%;
+    margin: 20px;
+    color: black;
+}
+.login{
+    margin-top: 10px;
+    border: 1px solid #27cfdc;
+}
+
+footer{
+    margin-top: 200px;
+}
